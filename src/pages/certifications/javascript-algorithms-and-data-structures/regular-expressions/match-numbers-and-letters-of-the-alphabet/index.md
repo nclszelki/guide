@@ -3,8 +3,11 @@ title: Match Numbers and Letters of the Alphabet
 ---
 ## Match Numbers and Letters of the Alphabet
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/regular-expressions/match-numbers-and-letters-of-the-alphabet/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
-
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
-
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Here is the sol:
+```Javascript
+
+let myRegex = /[h-s2-6]/ig; 
+let result = quoteSample.match(myRegex); 
+
+```
